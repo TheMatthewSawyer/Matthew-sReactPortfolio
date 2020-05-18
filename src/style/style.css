@@ -1,0 +1,398 @@
+/*
+.-------------------------------------------------.
+| All images are royalty free and downloaded from |
+|             https://www.pexels.com/             |
+'-------------------------------------------------'
+                                                                  
+ .oPYo.                                          o                
+ 8    8                                          8                
+o8YooP' .oPYo. .oPYo. .oPYo.     .oPYo. .oPYo.  o8P o    o .oPYo. 
+ 8      .oooo8 8    8 8oooo8     Yb..   8oooo8   8  8    8 8    8 
+ 8      8    8 8    8 8.           'Yb. 8.       8  8    8 8    8 
+ 8      `YooP8 `YooP8 `Yooo'     `YooP' `Yooo'   8  `YooP' 8YooP' 
+                    8                                      8
+                 ooP'                                      8
+*/
+html {
+  font-size: calc(1em + 1vw);
+  font-weight: bolder;
+  font-family: Arial, Helvetica, Verdana;
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cantTouchThis {
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, rgba(2,66,0,1) 38%, rgba(158,196,164,1) 100%);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 19%, rgba(34,193,195,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 19%, rgba(34,193,195,1) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 19%, rgba(34,193,195,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#22c1c3",GradientType=1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,55,9,1) 50%);
+}
+
+/*                                                            
+.oPYo.                                                   o         
+8    8                                                   8         
+8      .oPYo. ooYoYo. .oPYo. .oPYo. odYo. .oPYo. odYo.  o8P .oPYo. 
+8      8    8 8' 8  8 8    8 8    8 8' `8 8oooo8 8' `8   8  Yb..   
+8    8 8    8 8  8  8 8    8 8    8 8   8 8.     8   8   8    'Yb. 
+`YooP' `YooP' 8  8  8 8YooP' `YooP' 8   8 `Yooo' 8   8   8  `YooP' 
+                      8
+                      8
+*/
+
+#nav {
+  color: white;
+  list-style-type: none;
+  background-image:
+  linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%),
+  url('../images/rock-texture-header.jpeg');
+  background-size: cover;
+  width: 100%;
+  height: 3em;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.menuName, ul.nav .menuItem {
+  transition: all 200ms;
+  cursor: pointer;
+  float: left;
+  line-height: 3em;
+  padding: 0px 20px
+}
+
+.nameLink {
+  text-decoration: none;
+  color: white;
+}
+
+ul.nav .menuItem {
+  float: right;
+}
+
+.betterBRFull {
+  width: 100%;
+  height: 50px;
+}
+
+.betterBRHalf {
+  width: 100%;
+  height: 25px;
+}
+
+.aboutSection {
+  margin-top: 200px;
+  color: white;
+  padding: 50px;
+  animation: borderStart 1s;
+  border: none;
+  transition: all 200ms;
+}
+
+.portfolioSection {
+  background: url('../images/tree.png');
+  background-size: contain;
+  margin-top: 200px;
+  color: white;
+  padding: 50px;
+  border: 4px solid lemonchiffon;
+  width: 100%;
+}
+
+.contactSection {
+  margin-top: 200px;
+  color: white;
+  padding: 50px;
+  border: 4px solid lemonchiffon;
+  width: 100%;
+  max-height: 1000px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.paragraph {
+  opacity: 0;
+  transition: all 200ms;
+  animation: left 1s;
+}
+
+.canDoList {
+  margin-left: 50px;
+}
+
+.welcomeMessage {
+  position: relative;
+  text-align: center;
+  left: -50%;
+  bottom: 150px;
+  color: black;
+  animation: borderStart 1s;
+  background-color: rgb(182, 253, 148);
+  padding: 25px;
+  transition: all 200ms;
+  border-radius: 10px;
+}
+
+.positioning {
+  position: absolute; 
+  left: 50%;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  transition: all 200ms;
+}
+.sectionTitleContact {
+  position: relative;
+  left: -50%;
+  bottom: 2.5em;
+  font-family: cursive;
+  font-weight: lighter;
+  opacity: 1;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.sectionTitlePorfolio {
+  position: relative;
+  left: -50%;
+  bottom: 2.5em;
+  font-family: cursive;
+  font-weight: lighter;
+  opacity: 1;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.sectionTitleAbout {
+  position: relative;
+  left: -50%;
+  bottom: 2.5em;
+  font-family: cursive;
+  font-weight: lighter;
+  opacity: 0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+#smallMenu {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 10%;
+  top: 5px;
+  opacity: 0;
+  transition: all 100ms;
+  border-radius: 40%;
+  display: none;
+}
+
+#smallLinks {
+  position: fixed;
+  left: 50%;
+  top: -120px;
+  transition: all 200ms;
+  margin-top: 80px;
+}
+
+.smallOp {
+  position: relative;
+  left: -50%;
+  margin: 10px;
+  padding: 5px;
+  background-color: ivory;
+  text-decoration: none;
+  color: darkgreen;
+}
+
+.portfolioItem {
+  display: block;
+  position: relative;
+  width: 5em;
+  height: 5em;
+  background-color: lightcoral;
+  left: 85%;
+}
+
+.contactLinks {
+  color: white;
+}
+
+.contactHeaders {
+  font-family: cursive;
+  color: lightgreen;
+}
+
+/*
+  dYYo.                        8    o       
+.P'   8                        8          
+8  d  8   ooYoYo.  .oPYo.  .oPYo8  o8   oPYo.
+8  8ooP   8' 8  8  8oooo8  8    8   8  .oooo8
+8         8  8  8  8.      8    8   8  8    8
+`YoooP'   8  8  8  `Yooo'  `YooP'   8  `YooP8
+*/
+
+
+@media only screen 
+and (min-width : 1080px) {
+  .html {
+    font-size: 26.8px;
+  }
+}
+
+@media only screen 
+and (max-width : 600px) {
+  .navLink {
+    display: none;
+  }
+  #smallMenu {
+    display: block;
+    opacity: 1;
+  }
+  .contactSection {
+    overflow-x: scroll;
+  }
+}
+
+/*
+ o    o                          
+ 8    8                          
+o8oooo8  .oPYo.  o    o  .oPYo.  oPYo. 
+ 8    8  8    8  Y.  .P  8oooo8  8  `' 
+ 8    8  8    8`  b..d'  8.      8     
+ 8    8  `YooP'   `YP'   `Yooo'  8  
+*/
+.menuName:hover {
+  text-shadow: 
+  0.2em 0.2em 0.5em lightgreen,
+  -0.2em 0.2em 0.5em green,
+  0.2em -0.2em 0.5em greenyellow,
+  -0.2em -0.2em 0.5em #daa520;
+  transform: scale(1.03);
+}
+
+.navLink:hover {
+  text-shadow:   0.2em 0.2em 0.5em white,
+  -0.2em 0.2em 0.5em white,
+  0.2em -0.2em 0.5em white,
+  -0.2em -0.2em 0.5em white;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+#smallMenu:hover {
+  border-radius: 0;
+  cursor: pointer;
+}
+
+/*
+.oPYo.                         8  8 
+8                              8  8 
+`Yooo.  .oPYo.  oPYo.  .oPYo.  8  8 
+    `8  8    '  8  `'  8    8  8  8 
+     8  8    .  8      8    8  8  8 
+`YooP'  `YooP'  8      `YooP'  8  8 
+*/
+
+html:not([data-scroll='0']) body {
+  padding-top: 3em;
+}
+
+html:not([data-scroll='0']) .nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  -webkit-font-smoothing: subpixel-antialiased;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translateZ() scale(1.0, 1.0);
+}
+
+html:not([data-scroll='0']) .paragraph{
+  opacity: 1;
+}
+
+html:not([data-scroll='0']) .welcomeMessage{
+  opacity: 0;
+}
+
+html:not([data-scroll='0']) .aboutSection{
+  border: 4px lemonchiffon solid;
+}  
+
+html:not([data-scroll='0']) .sectionTitleAbout{
+  animation: left 1s;
+  opacity: 1;
+}
+
+/*
+     .oo           o                    o    o              
+    .P 8                                8                 
+   .P  8  odYo.   o8  ooYoYo.  .oPYo.  o8Po  8  .oPYo.  odYo. 
+  oPooo8  8' `8    8  8' 8  8  .oooo8   8    8  8    8  8' `8 
+ .P    8  8   8    8  8  8  8  8    8   8    8  8    8  8   8 
+.P     8  8   8    8  8  8  8  `YooP8   8    8  `YooP'  8   8 
+*/
+
+@keyframes borderStart {
+  0% {  
+    opacity: 0;
+    bottom: 0px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 150px;
+  }
+}
+
+@keyframes left {
+  0% {
+    opacity: 0;
+    left: 200px;
+  }
+  100% {
+    opacity: 1;
+    left: -50%;
+  }
+}
