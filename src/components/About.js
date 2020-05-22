@@ -23,7 +23,7 @@ function About() {
                 <div>Things I can do:</div>
                 <ul className='canDoList'>
                     <div className='betterBRHalf'></div>
-                    <li>CSS (Check out the style file!)</li>
+                    <li>CSS</li>
                     <li>JS</li>
                     <li>React</li>
                     <li>Java</li>
