@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.4a5aa2eb.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.e8a40c70.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.e8a40c70.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.565a7c55.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.565a7c55.js.map",
-    "static/js/2.466349f7.chunk.js": "/react-gh-pages/static/js/2.466349f7.chunk.js",
-    "static/js/2.466349f7.chunk.js.map": "/react-gh-pages/static/js/2.466349f7.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.2cbb2648b9851b684a60d5f761029008.js": "/react-gh-pages/precache-manifest.2cbb2648b9851b684a60d5f761029008.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.4a5aa2eb.chunk.css.map": "/react-gh-pages/static/css/main.4a5aa2eb.chunk.css.map",
-    "static/js/2.466349f7.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.466349f7.chunk.js.LICENSE.txt",
-    "static/media/choiceeats.jpg": "/react-gh-pages/static/media/choiceeats.09848dcb.jpg",
-    "static/media/employeedirectory.png": "/react-gh-pages/static/media/employeedirectory.937d2ac1.png",
-    "static/media/knightchat.png": "/react-gh-pages/static/media/knightchat.73a5ad68.png",
-    "static/media/style.css": "/react-gh-pages/static/media/tree.0bf30cd1.png",
-    "static/media/weatherimg.png": "/react-gh-pages/static/media/weatherimg.8d3e1b44.png"
+    "main.css": "/Matthew-sReactPortfolio/static/css/main.47a46a80.chunk.css",
+    "main.js": "/Matthew-sReactPortfolio/static/js/main.e8a40c70.chunk.js",
+    "main.js.map": "/Matthew-sReactPortfolio/static/js/main.e8a40c70.chunk.js.map",
+    "runtime-main.js": "/Matthew-sReactPortfolio/static/js/runtime-main.f4256c7d.js",
+    "runtime-main.js.map": "/Matthew-sReactPortfolio/static/js/runtime-main.f4256c7d.js.map",
+    "static/js/2.466349f7.chunk.js": "/Matthew-sReactPortfolio/static/js/2.466349f7.chunk.js",
+    "static/js/2.466349f7.chunk.js.map": "/Matthew-sReactPortfolio/static/js/2.466349f7.chunk.js.map",
+    "index.html": "/Matthew-sReactPortfolio/index.html",
+    "precache-manifest.4cd47d8c0ba4bb1ffad72060901e3a16.js": "/Matthew-sReactPortfolio/precache-manifest.4cd47d8c0ba4bb1ffad72060901e3a16.js",
+    "service-worker.js": "/Matthew-sReactPortfolio/service-worker.js",
+    "static/css/main.47a46a80.chunk.css.map": "/Matthew-sReactPortfolio/static/css/main.47a46a80.chunk.css.map",
+    "static/js/2.466349f7.chunk.js.LICENSE.txt": "/Matthew-sReactPortfolio/static/js/2.466349f7.chunk.js.LICENSE.txt",
+    "static/media/choiceeats.jpg": "/Matthew-sReactPortfolio/static/media/choiceeats.09848dcb.jpg",
+    "static/media/employeedirectory.png": "/Matthew-sReactPortfolio/static/media/employeedirectory.937d2ac1.png",
+    "static/media/knightchat.png": "/Matthew-sReactPortfolio/static/media/knightchat.73a5ad68.png",
+    "static/media/style.css": "/Matthew-sReactPortfolio/static/media/tree.0bf30cd1.png",
+    "static/media/weatherimg.png": "/Matthew-sReactPortfolio/static/media/weatherimg.8d3e1b44.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.565a7c55.js",
+    "static/js/runtime-main.f4256c7d.js",
     "static/js/2.466349f7.chunk.js",
-    "static/css/main.4a5aa2eb.chunk.css",
+    "static/css/main.47a46a80.chunk.css",
     "static/js/main.e8a40c70.chunk.js"
   ]
 }
